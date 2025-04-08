@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1.Bürger Museum</title>
+    <title>11.Wolfenbüttel Gardeners – Wolfenbütteler Gärtner</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -15,6 +15,9 @@
             max-width: 800px;
             margin: auto;
         }
+        h1 {
+            text-align: center;
+        }
         audio {
             width: 100%;
             margin-top: 20px;
@@ -24,34 +27,47 @@
             margin-top: 30px;
             font-weight: bold;
         }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
         .button {
-            display: block;
-            width: 60px;
-            margin: 10px auto;
-            padding: 10px;
+            display: inline-block;
+            padding: 10px 20px;
             font-size: 18px;
             color: white;
             background-color: #007BFF;
-            text-align: center;
             text-decoration: none;
             border-radius: 5px;
+            margin: 5px;
+        }
+        .small-button {
+            padding: 8px 16px;
+            font-size: 16px;
+            background-color: #555555;
         }
         .logo {
             display: block;
-            margin: 20px auto 0 auto;
-            width: 200px;
+            margin: 40px auto 0 auto;
+            width: 200px; /* Задайте нужный размер логотипа */
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>1.Bürger Museum</h1>
+        <h1>2.Wie Wolfenbüttel eine Stadt wurde</h1>
+        
+        <!-- Аудиоплеер для файла The Town in 1747 – Die Stadt im Jahr 1747 -->
         <audio controls controlslist="nodownload">
-            <source src="BM%20DE.mp3" type="audio/mpeg">
-            Ваш браузер не поддерживает воспроизведение аудио.
+            <source src="LS2.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
         </audio>
+        
+        <!-- Основной текст -->
         <p>
-           Vor langer Zeit gab es hier eine kleine Siedlung. Sie hieß Wlferesbutle. Der Name kommt von Wulfheri, dem Gründer. Im 10. Jahrhundert wurde eine Wasserburg gebaut.
+            Vor langer Zeit gab es hier eine kleine Siedlung. Sie hieß Wlferesbutle. Der Name kommt von Wulfheri, dem Gründer. Im 10. Jahrhundert wurde eine Wasserburg gebaut.
 
 Im Jahr 1255 bekam das Adelsgeschlecht Welfen die Burg. Sie gehörte nun den Herzögen von Braunschweig und Lüneburg. Ab 1432 wurde die Burg größer und stärker gemacht.
 
@@ -65,34 +81,22 @@ Im 16. Jahrhundert ließ der Herzog eine neue Stadt bauen: die Heinrichsstadt.<b
 
 <br>Im Jahr 1570 bekam die Heinrichsstadt das Recht, einen Markt zu haben und ein eigenes Wappen zu führen. Aber erst 1747 wurden alle Stadtteile zu einer einzigen Stadt: Wolfenbüttel.
 
-Nur wenige Jahre später, 1753/54, zog der Herzog mit seinem Hof nach Braunschweig. Damit begann für Wolfenbüttel eine neue Zeit – es wurde von einer Herzogsstadt zu einer Bürgerstadt.
-        </p>
+Nur wenige Jahre später, 1753/54, zog der Herzog mit seinem Hof nach Braunschweig. Damit begann für Wolfenbüttel eine neue Zeit – es wurde von einer Herzogsstadt zu einer Bürgerstadt. </p>
         
-       
+        <!-- Текст-инструкция -->
+        <p class="instruction">Continue with button 12</p>
+        
         <!-- Контейнер для кнопок -->
-
         <div class="button-container">
-
-            <!-- Кнопка 4, ведущая на предыдущую страницу -->
-
-            <a href="https://museumwolfenbuettel.github.io/14.Epoca-de-los-fundadores/" class="button small-button">1</a>
-
-           
-
-            <!-- Кнопка 5, ведущая на следующую страницу -->
-
-            <a href="https://museumwolfenbuettel.github.io/16.--1914-1918-Trincheras-y-comuna-de-guerra/" class="button">3</a>
-
+            <!-- Кнопка 10, ведущая на предыдущую страницу -->
+            <a href="https://museumwolfenbuettel.github.io/New-Leisure-Time-Neue-Freizeit/" class="button small-button">1</a>
+            
+            <!-- Кнопка 12, ведущая на следующую страницу -->
+            <a href="https://museumwolfenbuettel.github.io/Bourgeois-Life-B-rgerliches-Leben/" class="button">3</a>
         </div>
 
- 
-
         <!-- Логотип под кнопками -->
-
         <img src="Museum_Wolfenbuettel.jpg" alt="Museum Logo" class="logo">
-
     </div>
-
 </body>
-
 </html>
